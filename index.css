@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+.body {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.icons {
+    display: flex;
+    width: 20px;
+    gap: 10px;
+    color: white;
+}
+
+.icon_logo {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    color: white;
+}
+
+.inner_footer {
+    width: 85vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 3em 5em 3em 5em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 10px;
+   position: absolute;
+   background-color: white;
+   margin-top: 65em;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10em;
+}
+
+.button_pink {
+    background-color: rgb(255, 82, 191,0.6);
+    color: white;
+    box-shadow:  0 2px 2px 0 rgb(255, 82, 191,0.6), 0 2px 2px 0 rgb(255, 82, 191,0.6);
+}
+
+.side_i_age {
+    width: 15em;
+}
+
+.container_div {
+    width: 20em;
+    margin: 2em;
+
+}
+
+.container_main_div {
+    display: flex;
+    width: 45em;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 10px;
+    padding: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.nav {
+    background-color:  hsl(193, 100%, 96%);
+    background-image: url("../assets/bg-hero-desktop.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner_nav_div {
+    display: flex;
+    justify-content: space-between;
+    width: 47em;
+}
+
+.nav_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 98vw;
+    height: 100vh;
+    margin-bottom: 4em;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 1em;
+}
+
+button {
+    border-radius: 20px;
+    padding: 12px 3em 12px 3em;
+    border: 0;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.background_div{
+    background-color: hsl(193, 100%, 96%);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 12px;
+    color: slategray;
+}
+.div1 {
+    display: flex;
+    padding-top: 40px;
+    gap: 2em;
+    
+}
+.hero_div {
+    width: 20em
+}
+
+.hero_image {
+    width: 25em;
+}
+
+.image {
+    height: 25px;
+}
+
+.top_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90em;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.footerlogo {
+    height: 24px;
+}
+
+.loaction {
+    width: 20px;
+    height: 20px;
+}
+
+.location_text {
+    width: 34em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    font-size: 8px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 8px;
+}
+
+@media (max-width: 480px) and (min-width: 0px) {
+    .div1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero_image {
+        width: 18em;
+    }
+    .container_main_div {
+        flex-direction: column;
+        width: 15em;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+    .lower_p {
+        font-size: 10px;
+    }
+    .container_div {
+        text-align: center;
+        width: 16em;
+    }
+    .card {
+        text-align: center;
+        padding: 1.9em 2.3em 1.9em 2.3em;
+        margin-top:102em;
+    }
+    .top_footer {
+        flex-direction: column;
+        align-items: last baseline;
+    }
+}
